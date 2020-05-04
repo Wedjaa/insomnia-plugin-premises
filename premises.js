@@ -106,7 +106,7 @@ const randomPremise = (state, bounds, shape) => {
     const present = animals - Math.floor(Math.random() * (animals - 10 + 1)) + 10;
     const location = randomLocation(bounds, shape);
     return {
-        premiseId: premiseId(),
+        usdaPin: premiseId(),
         producer: producerName,
         premName: randomFarm(),
         species: 'swine',
